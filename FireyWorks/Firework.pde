@@ -7,7 +7,7 @@ class Firework {
   float xSpeed;
   float ySpeed;
   float gravity;
-  //int count = 1000000;
+  int count = 1000000;
   
   Firework (float width, float height) {
     
@@ -17,10 +17,10 @@ class Firework {
     println(y);
     this.c = color( int(random(255)), int(random(255)), int(random(255)) );
     println(c);
-    this.diameter = random(width*1/1);
+    this.diameter = random(width*1/25);
     println (diameter);
-    this.xSpeed = random(-500, 500);
-    this.ySpeed = random(-500, 500);
+    this.xSpeed = random(-5, 5);
+    this.ySpeed = random(-5, 5);
     gravity = 0.5;
   } 
   

@@ -1,5 +1,5 @@
 //Must create main program to handle class, basic level
-Firework[] fireworks =  new Firework[100];
+Firework[] fireworks =  new Firework[1000000];
 
 //Global Variables
 
