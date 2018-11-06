@@ -1,5 +1,5 @@
 class Firework {
-  //Variables
+  
   float x;
   float y;
   color c;
@@ -7,29 +7,32 @@ class Firework {
   float xSpeed;
   float ySpeed;
   float gravity;
-  int count = 25;
-  //Constructor
+  //int count = 1000000;
+  
   Firework (float width, float height) {
-    //X&Y are values when Pong Ball scores
+    
     this.x = random (width);
     println(x);
     this.y = random (height);
     println(y);
     this.c = color( int(random(255)), int(random(255)), int(random(255)) );
     println(c);
-    this.diameter = random(width*1/25);
+    this.diameter = random(width*1/1);
     println (diameter);
-    this.xSpeed = random(-5, 5);
-    this.ySpeed = random(-5, 5);
+    this.xSpeed = random(-500, 500);
+    this.ySpeed = random(-500, 500);
     gravity = 0.5;
-  } //End of Constructor
-
-  //Procedures or Functions
-  //void draw() {
-    //fill(c);
-    //ellipse(x, y, diameter, diameter);
-  //}
-
-  //Getter and Setters
+  } 
   
+  void draw() {
+    fill(c);
+    ellipse(x, y, diameter, diameter);
+  }
+  
+  void step() {
+    x+= xSpeed;
+    y+= ySpeed;
+    
+    ySpeed += gravity;
+  }
 }

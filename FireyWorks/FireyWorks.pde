@@ -1,16 +1,28 @@
 //Must create main program to handle class, basic level
-Firework[] firework =  new Firework[25];
+Firework[] fireworks =  new Firework[100];
 
 //Global Variables
 
 void setup() {
-  size(500,600);
-  for (int i=0; i < 
-  firework[i] = new Firework(width, height);
+  size(1000,1000);
+  for (int i=0; i < fireworks.length; i++){
+  fireworks[i] = new Firework(width, height);
+  }
 }
+
 
 void draw() {
   background(255);
-  firework.step();
-  firework.draw();
+  for (int i=0; i < fireworks.length; i++) {
+  fireworks[i].step();
+  fireworks[i].draw();
+
+
 }
+
+}
+  void mouseClicked() {
+    for (int i=0; i < fireworks.length; i++){
+      fireworks[i] = new Firework (width, height);
+    }
+  }
