@@ -1,4 +1,4 @@
-void startStop() {
+/*void startStop() {
   if (keyPressed) {
     if (key == '7') {
       start = true;
@@ -11,4 +11,4 @@ void startStop() {
       exit();
     }
   }
-}
+}*/

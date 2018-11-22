@@ -1,4 +1,4 @@
-void playGame () {
+/*void playGame () {
 
   background(0); //This here be black
 
@@ -61,4 +61,4 @@ void playGame () {
   rect(player[0], player[1], paddle[0], paddle[1]);
   rect(player[2], player[3], paddle[0], paddle[1]);
   fill(#00ffff); //This here be aqua
-}
+}*/

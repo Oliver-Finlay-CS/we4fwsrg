@@ -1,4 +1,4 @@
-Ball[] balls = new Ball[4];  
+Ball[] balls = new Ball[500];  
 
 int ballCount = 0;
 Boolean endGame = false; 
@@ -20,12 +20,12 @@ void draw() {
     balls[i].draw();
    
   }
-  if (endGame == true) {
-    println("Game is over");
-    exit();
+  //if (endGame == true) {
+    //println("Game is over");
+    //exit();
   }
   //println("Player 1:", score1, "\tPlayer 2:", score2);
-}
+
 
 void mouseClicked() {
   ballCount++;
@@ -37,4 +37,6 @@ void mouseClicked() {
     balls[i] = new Ball(width, height);
     balls[i].gameStart();
   }
+
+
 }

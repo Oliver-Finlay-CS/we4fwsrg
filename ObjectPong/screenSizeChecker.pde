@@ -1,4 +1,4 @@
-void screenSizeChecker () {
+/*void screenSizeChecker () {
 
   String fullSize = "Width=" + displayWidth + "; Height=" + displayHeight; 
 
@@ -20,4 +20,4 @@ void screenSizeChecker () {
     println ("Do not size larger than the monitor: ", fullSize);
     exit(); 
   }
-}
+}*/

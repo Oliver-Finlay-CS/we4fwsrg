@@ -1,8 +1,8 @@
-void gameStart() {
+//void gameStart() {
 
  
 
-  ballStartX = width/2;
+ /* ballStartX = width/2;
   ballStartY = height/2;
   ballX = ballStartX;
   ballY = ballStartY;
@@ -28,4 +28,4 @@ void gameStart() {
     ballMoveY = int (random (-2, 2));
   }
   
-}
+}*/

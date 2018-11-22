@@ -20,7 +20,7 @@ class Ball {
     ballStartY = int(height/2);
     this.ballX = ballStartX;
     this.ballY = ballStartY;
-    ballDiameter = int(width/70); 
+    ballDiameter = int(width/3); 
     this.ballSpeedX = int (random (1, 5));
     this.ballSpeedY = int (random (1, 5));
     this.c = color(int(random(255)), int(random(255)), int(random(255)));

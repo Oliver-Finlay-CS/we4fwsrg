@@ -1,4 +1,4 @@
-void score () {
+/*void score () {
  
   if (ballX == 0+(ballDiameter/2) || ballX == width-(ballDiameter/2)) { 
     if (ballX == 0+(ballDiameter/2)) { 
@@ -26,7 +26,7 @@ void score () {
     */
     
    
-    player[1] = height/2 - height/paddleHeightRatio/2;
+    /*player[1] = height/2 - height/paddleHeightRatio/2;
     
     //Old Debugging Code
     //println ("Score Board is: " + score[0] + " Player-1" + "     " + score[1] + " Player-2");
@@ -38,4 +38,4 @@ void score () {
   
   text("Player 2:\n" + score[1], (width*3/5)-(0.1*width), height*1/5);
   println ("Score Board is: " + score[0] + " Player-1" + "     " + score[1] + " Player-2");
-}
+}*/
